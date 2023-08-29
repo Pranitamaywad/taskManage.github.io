@@ -1,0 +1,42 @@
+.card{
+padding: 10px;
+margin-bottom: 5px;
+background-color: aliceblue;
+padding: 5px;
+}
+.card:hover{
+    padding: 3px;
+    background-color: white;    }
+span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+
+}
+.btn {
+    margin-right: 5px;
+    font-size: smaller;
+    align-items: end;
+    justify-content: right;
+}
+
+p{
+    margin-top: 3px;
+    font-style: inherit;
+    font-weight: 400;
+}
+.cadRight{
+    display: flex;
+}
+.card-title{
+    border: none;
+    background: none;
+    font-size:medium;
+    font-weight: 500;
+}
+.card-title-des{
+    border: none;
+    background: none;
+    font-size: small;
+}
